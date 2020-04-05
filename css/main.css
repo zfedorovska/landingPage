@@ -350,11 +350,15 @@ body{
 }
 
 /* ############################################### */
-@media screen and (max-width: 1000px){	
+@media screen and (max-width: 1000px){		
+	 .menu__item { 
+		font-size: 2.5rem;
+		} 
+
 	 .container__fixed{
 		padding: 0 15px;
 	 }
-	 
+	
 	 .flex-container{
 	 }
 	 
@@ -432,14 +436,6 @@ body{
 }
 
 @media screen and (max-width: 480px){
-	body{
-		background: red;
-	}
-    .menu__item { 
-		font-size: 1.8rem;
-		color: red;
-		} 
-	
 	.banner__btn{
 		margin-top: 50px;
 	}
